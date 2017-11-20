@@ -21,6 +21,6 @@ As a team, use the HTML5 canvas tag to build a browser based version of the clas
 
 1. Randomly pick one of the seven shapes and place it at the top of the game area.
 1. Allow user to use the arrow keys to move left, right, or down.
-1. Allow user to rotate the piece with the `w`, and `r` keys.
+1. Allow user to rotate the piece with the `w` and `r` keys.
 1. Allow user to press spacebar to move the piece down into position quickly.
 1. As soon as a row is filled, remove all blocks in the row.

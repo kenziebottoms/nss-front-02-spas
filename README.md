@@ -5,7 +5,7 @@ A repo for all completed activities associated with the front-end half of Nashvi
 - [Challenges](challenges)
 - [Exercises](exercises)
 
---
+---
 
 # Resources
 

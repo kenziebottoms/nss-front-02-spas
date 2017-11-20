@@ -13,15 +13,17 @@
 
 In your Music History repository folder, create a new branch for this challenge.
 
-`git checkout -b mh-flexbox`
+```
+git checkout -b mh-flexbox
+```
 
 ### Requirements
 
 Using your new CSS skills, you'll build even better looking music history pages.
 
 1. Use the Flexible Layout Box model to ensure that both the form section and the content section are the same height.
-1. The entire container for the even songs (plus its details) should have a background color of Sea Shell (SeaShell or \#FFF5EE)
-1. The entire container for the odd songs (plus its details) should have a background color of Mint Cream (MintCream or \#F5FFFA)
+1. The entire container for the even songs (plus its details) should have a background color of Sea Shell (`SeaShell` or `#FFF5EE`)
+1. The entire container for the odd songs (plus its details) should have a background color of Mint Cream (`MintCream` or `#F5FFFA`)
 1. The first song container should have bold text.
 1. Set the navigation bar's position so that it's always on the top of the page, even if you scroll down. To ensure this works, you can just add some div tags at the bottom of the page that add enough text that would force you to scroll the browser.
 
@@ -41,14 +43,12 @@ Using your new CSS skills, you'll build even better looking music history pages.
 * Present the returned data in a nicely styled display. Use a image to accompany the forecast/conditions, such as a cloud with raindrops when the chance for precip is above a certain percentage.
 * The UI should use Bootstrap
 
-OpenWeatherMap API (scroll to bottom to see documentation)
-> http://openweathermap.org/api 
+##### [OpenWeatherMap API](http://openweathermap.org/api)
 
-You must sign up to receive an API key
-> http://home.openweathermap.org/users/sign_up
+[You must sign up to receive an API key.](http://home.openweathermap.org/users/sign_up)
 
 Example of an API call to get a 5-day forecast for 37201
-> api.openweathermap.org/data/2.5/weather?zip=37201&APPID=1111111111
+> http://api.openweathermap.org/data/2.5/weather?zip=37201&APPID=1111111111
 
 <a id="challenge-4"></a>
 ## Challenge \#5 - Building Tetris Foundations
