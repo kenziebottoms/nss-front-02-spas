@@ -1,19 +1,14 @@
-### Static Web Challenges
+## Single Page Applications Challenges
 
-#### Individual Challenges [[info](SP_INDIVIDUAL_CHALLENGES.md)]
+### Individual Challenges [[info](SP_INDIVIDUAL_CHALLENGES.md)]
 
-- Challenge #1
-- [Challenge #2](i02.png)
-- Challenge #3
-- Challenge #4
-- Challenge #5
-- Challenge #6
-- Challenge #7
-- Challenge #8
+1. Flexbox Warmup
+2. [Flexbox Part 2](i02.png)
+1. Flexbox Music History 2.5
+1. Weather Forecast Search Tool
+1. Tetris Foundations
 
-#### Group Challenges [[info](SP_TEAM_CHALLENGES.md)]
+### Team Challenges [[info](SP_TEAM_CHALLENGES.md)]
 
-- Challenge #1
-- Challenge #2
-- Challenge #3
-- Challenge #4
+1. Address Book
+1. Full Tetris Game
