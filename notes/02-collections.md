@@ -1,4 +1,4 @@
-## Arrays `[]`
+# Arrays `[]`
 
 Arrays can contain any data type or combination thereof.
 
@@ -32,7 +32,7 @@ Array values can be accessed by indices.
 
 Array values can be changed with the following methods.
 
-### `pop` and `push`
+## `pop` and `push`
 
 `pop` removes the last item in the list and returns it.
 
@@ -54,7 +54,7 @@ Array values can be changed with the following methods.
 (5) [4, "monkey", Object, 11, "Dart"]
 ```
 
-### `shift` and `unshift`
+## `shift` and `unshift`
 
 `shift` removes the first item from the list and returns it.
 
@@ -74,7 +74,7 @@ Array values can be changed with the following methods.
 (5) ["Hopper", "monkey", Object, 11, "Dart"]
 ```
 
-## Objects `{}`
+# Objects `{}`
 
 <big>
     Everything in Javascript is an object.
