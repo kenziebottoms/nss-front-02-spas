@@ -14,3 +14,4 @@ A repo for all completed activities associated with the front-end half of Nashvi
 
 ## Javascript
 - [ECMAScript 6 Compatibility Table](https://kangax.github.io/compat-table/es6/), kangax
+- [MDN web docs](https://developer.mozilla.org/en-US/), Mozilla

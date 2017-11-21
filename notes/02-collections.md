@@ -25,9 +25,16 @@ Array values can be accessed by indices.
 "demogorgon"
 ```
 
+## Array operations
+
 Array values can be changed with the following methods.
 
-## `pop` and `push`
+&nbsp;|First item|Last item
+---|---|---
+Add|`unshift()`|`push()`
+Remove|`shift()`|`pop()`
+
+### `pop` and `push`
 
 `pop` removes the last item in the list and returns it.
 
@@ -48,12 +55,13 @@ Array values can be changed with the following methods.
 (5) [4, "monkey", Object, 11, "Dart"]
 ```
 
-## `shift` and `unshift`
+### `shift` and `unshift`
 
 `shift` removes the first item from the list and returns it.
 
 ```Javascript
 > myArr.shift()
+4
 > myArr
 (4) ["monkey", Object, 11, "Dart"]
 ```
@@ -102,4 +110,14 @@ You can add new properties to an object after it has been declared.
 23
 > student.age
 23
+```
+
+Object properties can be any type, or a function.
+
+```Javascript
+> student.printName = function() {
+>     console.log(this.firstName+" "+this.lastName);
+> }
+> student.printName()
+Kenzie Bottoms
 ```
