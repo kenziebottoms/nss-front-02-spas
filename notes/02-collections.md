@@ -76,8 +76,8 @@ Array values can be changed with the following methods.
 
 ## Objects `{}`
 
-<aside class="notice">
+<big>
     Everything in Javascript is an object.
-</aside>
+</big>
 
 Objects, rather than being a one-dimensional list of values, is a collection of key-value pairs.

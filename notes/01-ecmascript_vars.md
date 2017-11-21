@@ -36,7 +36,5 @@ undefined
 > const name = "Joe";
 undefined
 > name = "Larry";
+Uncaught TypeError: Assignment to constant variable.
 ```
-<aside class="warning">
-    Uncaught TypeError: Assignment to constant variable.
-</aside>
