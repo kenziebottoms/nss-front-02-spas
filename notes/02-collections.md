@@ -78,7 +78,7 @@ Unlike lists, which are lists of values, objects are collections of key-value pa
 >     lastName: 'Bottoms',
 > }
 > student
-Object {firstName: "Kenzie", lastName: "Bottoms}
+Object {firstName: "Kenzie", lastName: "Bottoms"}
 ```
 
 Object key-value pairs are called properties, and can be accessed with bracket notation or dot notation, but not with indices.
