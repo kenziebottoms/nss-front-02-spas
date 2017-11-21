@@ -4,19 +4,14 @@ Arrays can contain any data type or combination thereof.
 
 ```Javascript
 > let myArr = []
-undefined
 > myArr
 []
 > myArr.push(4)
-1           // length of array
 > myArr
 (1) [4]     // length and content of array
 > myArr.push("monkey")
-2
 > myArr.push({})
-3
 > myArr.push(11, "demogorgon")
-5
 > myArr
 (5) [4, "monkey", Object, 11, "demogorgon"]
 ```
@@ -49,7 +44,6 @@ Array values can be changed with the following methods.
 
 ```Javascript
 > myArr.push("Dart")
-5
 > myArr
 (5) [4, "monkey", Object, 11, "Dart"]
 ```
@@ -60,7 +54,6 @@ Array values can be changed with the following methods.
 
 ```Javascript
 > myArr.shift()
-4
 > myArr
 (4) ["monkey", Object, 11, "Dart"]
 ```
@@ -69,15 +62,44 @@ Array values can be changed with the following methods.
 
 ```Javascript
 > myArr.unshift("Hopper")
-5
 > myArr
 (5) ["Hopper", "monkey", Object, 11, "Dart"]
 ```
 
 # Objects `{}`
 
-<big>
-    Everything in Javascript is an object.
-</big>
+#### Everything in Javascript is an object.
 
-Objects, rather than being a one-dimensional list of values, is a collection of key-value pairs.
+Unlike lists, which are lists of values, objects are collections of key-value pairs.
+
+```Javascript
+> let student = {
+>     firstName: 'Kenzie',  // key: firstName; value: 'Kenzie'
+>     lastName: 'Bottoms',
+> }
+> student
+Object {firstName: "Kenzie", lastName: "Bottoms}
+```
+
+Object key-value pairs are called properties, and can be accessed with bracket notation or dot notation, but not with indices.
+
+```Javascript
+> student.firstName
+"Kenzie"
+> student["lastName"]
+"Bottoms"
+> let ln = "lastName"
+> student[ln]
+"Bottoms"
+> student[0]
+undefined
+```
+
+You can add new properties to an object after it has been declared.
+
+```Javascript
+> student.age = 23
+23
+> student.age
+23
+```
