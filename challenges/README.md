@@ -2,7 +2,7 @@
 
 ### Individual Challenges [[info](SP_INDIVIDUAL_CHALLENGES.md)]
 
-1. Flexbox Warmup
+1. [Flexbox Warmup](i01.png)
 2. [Flexbox Part 2](i02.png)
 1. Flexbox Music History 2.5
 1. Weather Forecast Search Tool
