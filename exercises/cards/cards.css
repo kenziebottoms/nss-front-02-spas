@@ -1,0 +1,10 @@
+#main-content {
+    display: flex;
+}
+.card {
+    flex: 1 1 30%;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    width: 33%;
+    margin: 1rem;
+}
