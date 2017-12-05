@@ -1,21 +1,32 @@
-document.getElementById("createButton").addEventListener("click", e => {
-    e.preventDefault();
-    let textarea = document.getElementById("content");
-    let content = textarea.value;
-    let mainContent = document.getElementById("main-content");
-    addCard(content, mainContent);
-});
+const createButton = document.getElementById("createButton")
+const textarea = document.getElementById("content");
+const mainContent = document.getElementById("main-content");
 
-function addCard(content, location) {
+addCreateListener();
+
+function getCard(content) {
     let card = `<div class="card">
         <p>${content}</p>
         <input class="deleteButton" type="button" value="Delete">
     </div>`;
+    return card;
+}
+function addCard(content, location) {
+    let card = getCard(content);
     location.innerHTML += card;
-    let allDeleteButtons = document.getElementsByClassName("deleteButton");
-    let deleteButton = allDeleteButtons[allDeleteButtons.length-1];
-    deleteButton.addEventListener("click", () => {
-        console.log(allDeleteButtons.length-1);
-        // this only works on the most recently added button; why????
+    addDeleteListeners();
+}
+
+function addCreateListener() {
+    createButton.addEventListener("click", e => {
+        e.preventDefault();
+        let content = textarea.value;
+        addCard(content, mainContent);
+    });
+}
+function addDeleteListeners() {
+    mainContent.addEventListener("click", event => {
+        let clickedEl = event.srcElement;
+        clickedEl.parentElement.remove();
     });
 }
