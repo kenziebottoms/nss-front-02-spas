@@ -1,5 +1,5 @@
 {
-    "authors": [
+    "people": [
         {
             "name": "Ursula K. Le Guin",
             "title": "Author",
@@ -28,16 +28,6 @@
             "lifespan": {
                 "birth": 1947,
                 "death": 2006
-            }
-        },
-        {
-            "name": "Nnedi Okorafor",
-            "title": "Author",
-            "bio": "Nnedi Okorafor (full name: Nnedimma Nkemdili Okorafor; previously known as Nnedi Okorafor-Mbachu) is a Nigerian-American writer of fantasy, science fiction, and speculative fiction.",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Nnedi_Okorafor_%2837108184821%29.jpg/330px-Nnedi_Okorafor_%2837108184821%29.jpg",
-            "lifespan": {
-                "birth": 1974,
-                "death": 0
             }
         },
         {
