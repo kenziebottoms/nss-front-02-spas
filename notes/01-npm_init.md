@@ -18,9 +18,9 @@ In the root of your project folder:
 > npm install grunt grunt-contrib-jshint grunt-contrib-sass grunt-contrib-watch matchdep grunt-browserify
 ```
 
-### Configure `Gruntfile.jmains`
+### Configure `Gruntfile.js`
 
-If using JSLint, SASS, and Browserify, clone lone sample [`Gruntfile.js`](https://gist.github.com/kenziebottoms/dc4a300447652b63a29bc489670992e8).
+If using JSLint, SASS, and Browserify, clone sample [`Gruntfile.js`](https://gist.github.com/kenziebottoms/dc4a300447652b63a29bc489670992e8).
 
 ### Preempt your JS
 
