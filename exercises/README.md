@@ -13,7 +13,7 @@
 
 ### Array Functions
 
-1. Array method chaining
+1. [Array method chaining](chaining)
 1. String manipulation
 1. Solar system
 
