@@ -16,16 +16,27 @@ function print(string, divId) {
 }
 
 function activateEvents() {
-    document.getElementById("submit").addEventListener("click", e => {
-        let input = document.getElementById("textInput");
-        if (input.checkValidity()) {
-            print(reversal(input.value), "reversal");
-            print(alphabits(input.value), "alphabits");
-            print(palindrome(input.value), "palindrome");
-        } else {
-            alert("Please enter only letters.");
-        }
+    let submit = document.getElementById("submit")
+    submit.addEventListener("click", e => {
+        crunchLetters();
     });
+    let input = document.getElementById("textInput");
+    input.addEventListener("keypress", e => {
+        if (e.keyCode == 13) {
+            crunchLetters();
+        }
+    })
+}
+
+function crunchLetters() {
+    let input = document.getElementById("textInput");
+    if (input.checkValidity()) {
+        print(reversal(input.value), "reversal");
+        print(alphabits(input.value), "alphabits");
+        print(palindrome(input.value), "palindrome");
+    } else {
+        alert("Please enter only letters.");
+    }
 }
 
 activateEvents();
