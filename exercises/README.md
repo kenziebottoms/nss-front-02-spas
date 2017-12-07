@@ -14,8 +14,8 @@
 ### Array Functions
 
 1. [Array method chaining](chaining)
-1. String manipulation
-1. Solar system
+1. [String manipulation](strings)
+1. [Solar system](solar_system)
 
 
 ### Single Page Applications
