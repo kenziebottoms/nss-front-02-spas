@@ -4,14 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Document</title>    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <style>
+        #output {
+            padding: 1rem;
+            border: 1px solid #ccc;
+            margin: 1rem 0;
+        }
+        input:invalid {
+            background: rgba(255,0,0,.3);
+        }
+    </style>
 </head>
 <body>
-    <h1>Strings</h1>
-    <form>
-        <input type="text" pattern="[A-Za-z]+" id="textInput">
+    <div class="container my-3">
+        <h1>Strings</h1>
+        <input type="text" pattern="[A-Za-z ]+" id="textInput">
         <input type="submit" id="submit">
-    </form>
-    <script src="strings.js"></script>
+        <div id="output" class="row">
+            <div class="col">
+                <h5>Reversal</h5>
+                <div id="reversal"></div>
+            </div>
+            <div class="col">
+                <h5>Alphabits</h5>
+                <div id="alphabits"></div>
+            </div>
+            <div class="col">
+                <h5>Palindrome</h5>
+                <div id="palindrome"></div>
+            </div>
+        </div>
+        <script src="strings.js"></script>
+    </div>
 </body>
 </html>

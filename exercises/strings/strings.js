@@ -1,17 +1,31 @@
 function reversal(str) {
-    let arr = str.split("");
-    return "".concat(...arr.reverse());
+    return str.split("").reverse().join("");
 }
 
-function alphabits() {
-
+function alphabits(str) {
+    return str.split("").sort().join("");
 }
 
-function palindrome() {
-
+function palindrome(str) {
+    return str == reversal(str);
 }
 
-var testString = "hello world";
-reversal(testString);
-alphabits(testString);
-palindrome(testString);
+function print(string, divId) {
+    let output = document.getElementById("output");
+    document.getElementById(divId).innerHTML = string;
+}
+
+function activateEvents() {
+    document.getElementById("submit").addEventListener("click", e => {
+        let input = document.getElementById("textInput");
+        if (input.checkValidity()) {
+            print(reversal(input.value), "reversal");
+            print(alphabits(input.value), "alphabits");
+            print(palindrome(input.value), "palindrome");
+        } else {
+            alert("Please enter only letters.");
+        }
+    });
+}
+
+activateEvents();
