@@ -17,27 +17,12 @@
 1. [String manipulation](strings)
 1. [Solar system](solar_system)
 
-
-### Single Page Applications
-
-1. Music History 3
-
-
 ### XHRs
 
-1. IIFE, XHRs and Callbacks, Oh My
+1. :arrow_upper_right: [Modules, XHRs and Callbacks, Oh My](https://github.com/kenziebottoms/nss-front-02-oh-my)
 1. Pet food
 1. Seasonal sales
-1. Music History 4
-1. Blog Part 2
 
-### IIFE
+### Modules
 
 1. Sandwich maker
-1. Walk-A-Thon
-
-## Muscle Memory Exercises
-
-1. Arrays
-1. For
-1. Objects

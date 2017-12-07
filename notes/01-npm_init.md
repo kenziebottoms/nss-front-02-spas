@@ -37,3 +37,12 @@ If you've already written any Javascript, add this to the beginning of every fil
 ```
 
 ## Troubleshooting
+
+#### `sass:dist: The "path" argument must be of type string`
+
+```shell
+Running "sass:dist" (sass) task
+Warning: The "path" argument must be of type string Use --force to continue.
+```
+
+Make sure your SASS file has the `.scss` extension.
