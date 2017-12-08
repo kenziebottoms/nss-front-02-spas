@@ -21,7 +21,7 @@
 
 1. :arrow_upper_right: [Modules, XHRs and Callbacks, Oh My](https://github.com/kenziebottoms/nss-front-02-oh-my)
 1. [Pet food](pet_food)
-1. Seasonal sales
+1. :arrow_upper_right: [Seasonal sales](https://github.com/kenziebottoms/nss-front-02-sales)
 
 ### Modules
 
