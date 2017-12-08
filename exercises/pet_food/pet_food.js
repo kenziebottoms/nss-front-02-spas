@@ -1,20 +1,29 @@
-function getPetFood(url) {
+function getDogFood(url) {
     const loader = new XMLHttpRequest();
     loader.addEventListener("load", function() {
-        let petFood = JSON.parse(this.responseText);
-        display(petFood, "tbody");
+        let dogFood = JSON.parse(this.responseText);
+        displayDogFood(dogFood, "dog-tbody");
     });
     loader.open("GET", url, true);
     loader.send();
 }
 
-function display(petFood, divId) {
+function getCatFood(url) {
+    const loader = new XMLHttpRequest();
+    loader.addEventListener("load", function() {
+        let catFood = JSON.parse(this.responseText);
+        displayCatFood(catFood, "cat-tbody");
+    });
+    loader.open("GET", url, true);
+    loader.send();
+}
+
+function displayDogFood(dogFood, divId) {
     let div = document.getElementById(divId);
-    let dogBrands = petFood.dog_brands;
+    let dogBrands = dogFood.dog_brands;
     dogBrands.forEach(brand => {
         brandTypes = brand.types;
         brandTypes.forEach(type => {
-            typeVariation = type.type;
             typeVolumes = type.volumes;
             typeVolumes.forEach(volume => {
 //                console.log(brand.name, typeVariation, volume);
@@ -22,7 +31,7 @@ function display(petFood, divId) {
                 let brandTr = document.createElement("td");
                 brandTr.innerText = brand.name;
                 let typeVarTr = document.createElement("td");
-                typeVarTr.innerText = typeVariation;
+                typeVarTr.innerText = type.name;
                 let qtyTr = document.createElement("td");
                 qtyTr.innerText = volume.name;
                 let priceTr = document.createElement("td");
@@ -37,4 +46,33 @@ function display(petFood, divId) {
     });
 }
 
-getPetFood("food.json");
+function displayCatFood(catFood, divId) {
+    let div = document.getElementById(divId);
+    let dogBrands = catFood.cat_brands;
+    dogBrands.forEach(brand => {
+        brandTypes = brand.types;
+        brandTypes.forEach(type => {
+            typeVolumes = type.volumes;
+            typeVolumes.forEach(volume => {
+//                console.log(brand.name, typeVariation, volume);
+                let tr = document.createElement("tr");
+                let brandTr = document.createElement("td");
+                brandTr.innerText = brand.name;
+                let typeVarTr = document.createElement("td");
+                typeVarTr.innerText = type.name;
+                let qtyTr = document.createElement("td");
+                qtyTr.innerText = volume.name;
+                let priceTr = document.createElement("td");
+                priceTr.innerText = volume.price;
+                tr.appendChild(brandTr);
+                tr.appendChild(typeVarTr);
+                tr.appendChild(qtyTr);
+                tr.appendChild(priceTr);
+                div.appendChild(tr);
+            });
+        });
+    });
+}
+
+getDogFood("dogs.json");
+getCatFood("cats.json");

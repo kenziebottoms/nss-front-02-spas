@@ -4,7 +4,7 @@
             "name": "Chuck Wagon",
             "types": [
                 {
-                    "type": "all natural",
+                    "name": "all natural",
                     "volumes": [
                         {
                             "name": "32oz",
@@ -17,7 +17,7 @@
                     ]
                 },
                 {
-                    "type": "standard",
+                    "name": "standard",
                     "volumes": [
                         {
                             "name": "58oz",
@@ -35,7 +35,7 @@
             "name": "Purina",
             "types": [
                 {
-                    "type": "puppy",
+                    "name": "puppy",
                     "volumes": [
                         {
                             "name": "16oz",
@@ -48,7 +48,7 @@
                     ]
                 },
                 {
-                    "type": "standard",
+                    "name": "standard",
                     "volumes": [
                         {
                             "name": "58oz",
