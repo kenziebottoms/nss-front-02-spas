@@ -20,7 +20,7 @@
 ### XHRs
 
 1. :arrow_upper_right: [Modules, XHRs and Callbacks, Oh My](https://github.com/kenziebottoms/nss-front-02-oh-my)
-1. Pet food
+1. [Pet food](pet_food)
 1. Seasonal sales
 
 ### Modules
