@@ -9,7 +9,7 @@
 
 ---
 
-## Team Challenges
+## Team Challenges [[info](SP_TEAM_CHALLENGES.md)]
 
 1. Address Book
 1. Full Tetris Gam
