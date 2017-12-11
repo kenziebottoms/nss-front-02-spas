@@ -25,4 +25,4 @@
 
 ### Modules
 
-1. Sandwich maker
+1. :arrow_upper_right: [Sandwich maker](https://github.com/kenziebottoms/nss-front-02-sandwich)
