@@ -4,7 +4,7 @@
 
 1. [Flexbox Warmup](i01.png)
 2. [Flexbox Part 2](i02.png)
-1. Weather Forecast Search Tool
+1. :arrow_upper_right: [Weather Forecast Search Tool](https://github.com/kenziebottoms/nss-front-02-weather)
 1. Tetris Foundations
 
 ---
