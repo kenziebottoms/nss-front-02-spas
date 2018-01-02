@@ -15,3 +15,6 @@ A repo for notes and throwaway code associated with the front-end half of Nashvi
 ## Javascript
 - [ECMAScript 6 Compatibility Table](https://kangax.github.io/compat-table/es6/), kangax
 - [MDN web docs](https://developer.mozilla.org/en-US/), Mozilla
+
+### jQuery
+- [jQuery cheatsheet](https://oscarotero.com/jquery/), Óscar Otero
