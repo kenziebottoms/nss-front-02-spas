@@ -4,6 +4,8 @@ A repo for notes and throwaway code associated with the front-end half of Nashvi
 
 1. [Exercises](exercises)
 1. [Challenges](challenges)
+1. [Notes](notes)
+1. [Livecoded exercises](livecodes)
 
 ---
 

@@ -5,3 +5,9 @@
 ## Javascript
 
 - [`XMLHTTPRequest`s](02-xhrs.md)
+
+### jQuery
+
+- [Ajax](02-xhrs.md)
+- [jQuery XHRs](03-xhr-jquery.md)
+- [jQuery Attribute Selectors](04-attr-selectors.md)
