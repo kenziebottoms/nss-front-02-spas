@@ -12,4 +12,4 @@
 ## Team Challenges [[info](SP_TEAM_CHALLENGES.md)]
 
 1. :white_check_mark: [Address Book](https://github.com/kenziebottoms/nss-front-02-address-book) :arrow_upper_right:
-1. Full Tetris Game
+1. [Full Tetris Game](https://github.com/kenziebottoms/nss-front-02-tetris) :arrow_upper_right:
