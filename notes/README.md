@@ -9,5 +9,5 @@
 ### jQuery
 
 - [Ajax](02-xhrs.md)
-- [jQuery XHRs](03-xhr-jquery.md)
-- [jQuery Attribute Selectors](04-attr-selectors.md)
+- [jQuery XHRs](03-xhr_jquery.md)
+- [jQuery Attribute Selectors](04-attr_selectors.md)
